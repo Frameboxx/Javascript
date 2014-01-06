@@ -1,5 +1,10 @@
 window.onload = function(){
 	var listEl = document.getElementById('todoList');
-	listEl.innerHTML = "<li><h6>This is a task</h6></li>";
-	listEl.innerHTML += "<li><h6>This is the second task</h6></li>"
+	
+	function addTask(task){
+		listEl.innerHTML += "<li><h6>" + task + "</h6></li>";
+	}
+
+	addTask("This is a task");
+	addTask("This is another task");
 }
