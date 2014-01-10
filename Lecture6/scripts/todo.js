@@ -12,6 +12,13 @@ window.onload = function(evt){
 		// Clear out the UL
 		listEl.innerHTML = '';
 		// loop over the todos array and append items to the UL
+		if(localStorage.tasks == undefined){
+			localStorage.tasks = JSON.stringify([]);
+			todos = JSON.parse(localStorage.tasks);
+		} else {
+			todos = JSON.parse(localStorage.tasks);
+		}
+		
 		for(var i in todos){
 			listEl.innerHTML += '<li><h6>' + todos[i] + '</h6><a href="#" class="remTask" data-taskid="' + i + '">X</a></li>'
 		}
@@ -20,7 +27,7 @@ window.onload = function(evt){
 	// This function adds new items to the todos array and accepts the task string as a parameter
 	function addTask(task){
 		todos.push(task);
-
+		localStorage["tasks"] = JSON.stringify(todos);
 		// Once you have inserted a new task into the todos array, re-render the list
 		renderList();
 	}
@@ -29,6 +36,7 @@ window.onload = function(evt){
 	// This function removes an item from the todos array & accepts the index number of the item
 	function remTask(id){
 		todos.splice(id,1);
+		localStorage["tasks"] = JSON.stringify(todos);
 		renderList();
 	}
 
