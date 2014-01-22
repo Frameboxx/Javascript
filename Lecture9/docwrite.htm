@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	Document.Write  = function(content){
+		var scriptTag = document.getElementsByTagName("script");
+		var lastScriptTag = scriptTag[scriptTag.length - 1];
+		lastScriptTag.insertAdjacentHTML("beforebegin", content);
+	}
+	</script>
+</head>
+<body>
+	<h1>Tite of the Page</h1>
+	<hr>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, quidem, enim fuga omnis iure cum illum sed aperiam suscipit unde tenetur explicabo minima adipisci dolorem quia quas aliquid voluptates praesentium.</p>
+	<hr>
+	<script>
+	
+	var a = [1,2,3,4,5];
+	for(var n in a){
+		Document.Write(a[n] + "<br>");
+	}
+
+	</script>
+	<hr>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, facere, debitis, quia, dolorum optio aut earum molestiae unde autem id culpa minima quas perferendis neque facilis inventore laudantium blanditiis expedita?</p>
+	<br>
+	<script>
+	Document.Write('<h2>This is the footer</h2>');
+	</script>
+</body>
+</html>
