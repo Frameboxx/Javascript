@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Basic AJAX Example</title>
+	<link rel="stylesheet" href="styles/main.css">
+	<script src="scripts/main.js"></script>
+</head>
+<body>
+	<div class="container">
+		<button id="load">Load Data !</button>
+		<img src="images/throbber.gif" alt="" id="preloader">
+		<br>
+		<h3 id="error">Error:: The server could not be contacted !</h3>
+		<input type="text" name="name" id="name" placeholder="Full Name">
+		<input type="text" name="email" id="email" placeholder="E-Mail">
+		<input type="text" name="age" id="age" placeholder="Age">
+		<button id="add">Add User</button>
+		<table width="400" border="1" cellspacing="0" cellpadding="5">
+			<thead>
+				<tr>
+					<th><a href="#" id="byname">Name</a></th>
+					<th><a href="#" id="byemail">E-Mail</a></th>
+					<th><a href="#" id="byage">Age</a></th>
+				</tr>
+			</thead>
+			<tbody id="display">
+
+			</tbody>			
+		</table>
+	</div>
+</body>
+</html>
