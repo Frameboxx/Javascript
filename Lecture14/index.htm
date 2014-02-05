@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Uploading Files</title>
+	<link rel="stylesheet" href="styles/main.css">
+	<script src="scripts/main.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h3>File Manager</h3>
+		<input type="file" name="uploadFile" id="uploadFile">
+		<div class="filedetails">
+			<p>
+				File Size : <span class="filesize">0 Mb</span><br>
+				File Type : <span class="filetype">No File Selected</span>
+			</p>
+		</div>
+		<progress id="progressBar" max="100" value="0"></progress>
+		<button id="upload">Upload !</button>
+		<ul id="fileslist">
+			<li>Somefile.jpg</li>
+		</ul>
+	</div>
+</body>
+</html>
