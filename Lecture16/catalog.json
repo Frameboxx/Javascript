@@ -1,0 +1,110 @@
+[
+  {
+    "itemcode":"M001",
+    "itemcatagory":"Mobile Phones",
+    "itemname":"Apple iPhone 5C",
+    "itemprice":40000,
+    "itempic":"M001.jpg",
+    "itemkeywords":["mobile", "Apple"],
+    "itemdescription":"This is the Apple iPhone 5C"
+  },
+  {
+    "itemcode":"M002",
+    "itemcatagory":"Mobile Phones",
+    "itemname":"Moto G 16GB",
+    "itemprice":13999,
+    "itempic":"M002.jpg",
+    "itemkeywords":["mobile", "Motorola"],
+    "itemdescription":"An Android smartphone that is, quite possibly, the best in its class, Moto G is a fresh and power-packed flagship model from Motorola."
+  },
+  {
+    "itemcode":"M003",
+    "itemcatagory":"Mobile Phones",
+    "itemname":"Micromax Canvas 2 Plus A110Q",
+    "itemprice":9999,
+    "itempic":"M003.jpg",
+    "itemkeywords":["mobile", "Micromax"],
+    "itemdescription":"The beauty and performance of the Canvas series from Micromax has spawned yet another smartphone that promises to fast forward your life to warp speed with its performance - the Canvas 2 Plus."
+  },
+  {
+    "itemcode":"M004",
+    "itemcatagory":"Mobile Phones",
+    "itemname":"Samsung Galaxy Core I8262",
+    "itemprice":13600,
+    "itempic":"M004.jpg",
+    "itemkeywords":["mobile", "Samsung"],
+    "itemdescription":"Packing power and usability into a small, convenient package, Samsung presents the Galaxy Core that gives you an enhanced experience of smart features."
+  },
+  {
+    "itemcode":"M005",
+    "itemcatagory":"Mobile Phones",
+    "itemname":"Sony Xperia C",
+    "itemprice":18640,
+    "itempic":"M005.jpg",
+    "itemkeywords":["mobile", "Sony"],
+    "itemdescription":"Experience mobile technology that is built to connect easier and entertain more. With its technology, the audio-visual capabilities of Sony�s Xperia C exhibits performance."
+  },
+  {
+    "itemcode":"M006",
+    "itemcatagory":"Mobile Phones",
+    "itemname":"Lenovo A390",
+    "itemprice":5499,
+    "itempic":"M006.jpg",
+    "itemkeywords":["mobile", "Lenovo"],
+    "itemdescription":"A dual-core processor, large 4 inch screen and Android 4.0 Ice Cream Sandwich OS make the Lenovo A390 mobile phone way more than a basic smartphone and deliver a smooth experience when enjoying your favorite apps and games."
+  },
+  {
+    "itemcode":"M007",
+    "itemcatagory":"Mobile Phones",
+    "itemname":"Google Nexus 5",
+    "itemprice":32650,
+    "itempic":"M007.jpg",
+    "itemkeywords":["mobile", "Google", "LG"],
+    "itemdescription":"Rounding off Android perfection and providing the experience that was truly intended by Google when they created the operating system, the Nexus 5 is a beautiful device that packs high-powered hardware with flawless software � a never-fail combination."
+  },
+  {
+    "itemcode":"B001",
+    "itemcatagory":"Books",
+    "itemname":"The Oath of the Vayuputras: Shiva Trilogy 3",
+    "itemprice":203,
+    "itempic":"B001.jpg",
+    "itemkeywords":["books", "fantasy", "fiction"],
+    "itemdescription":"India�s own super hero is finally here. Shiva has risen yet again to destroy the evildoers. The last of the Shiva Trilogy, this book promises to keep the readers gripped while the great warrior discovers who his true enemies are and gives it his all to destroy them."
+  },
+  {
+    "itemcode":"B002",
+    "itemcatagory":"Books",
+    "itemname":"The Immortals of Meluha",
+    "itemprice":113,
+    "itempic":"B002.jpg",
+    "itemkeywords":["books", "fantasy", "fiction"],
+    "itemdescription":"The Immortals Of Meluha is a thrilling story about a warrior named Shiva, who is given the responsibility to protect the empire of Meluha from dangerous intruders. This mythological novel is fast-paced, and focuses on duty, love, principles and more."
+  },
+  {
+    "itemcode":"B003",
+    "itemcatagory":"Books",
+    "itemname":"The Secret Of The Nagas",
+    "itemprice":145,
+    "itempic":"B003.jpg",
+    "itemkeywords":["books", "fantasy", "fiction"],
+    "itemdescription":"The Secret of The Nagas is the second book in the Shiva trilogy, and is a sequel to The Immortals of Meluha."
+  },
+  {
+    "itemcode":"B004",
+    "itemcatagory":"Books",
+    "itemname":"The Krishna Key",
+    "itemprice":144,
+    "itempic":"B004.jpg",
+    "itemkeywords":["books", "fantasy", "fiction"],
+    "itemdescription":"The Krishna Key is India's version of a novel as thrilling as the Da Vinci Code. The book is centered on a professor racing against time to put together a puzzle that could save a lot of lives, including his own."
+  },
+  {
+    "itemcode":"B005",
+    "itemcatagory":"Books",
+    "itemname":"Big Data @ Work",
+    "itemprice":875,
+    "itempic":"B005.jpg",
+    "itemkeywords":["books", "software"],
+    "itemdescription":"Most managers are awash in data as it is-so what is new and different about \"big data\"? What does it really mean for business? And how can executives capitalize on the new opportunities it creates? This book, from the bestselling author of Competing on Analytics, Tom Davenport, gets past all the hype and technical mumbo jumbo to address the real practical managerial implications of big data."
+  }
+]
