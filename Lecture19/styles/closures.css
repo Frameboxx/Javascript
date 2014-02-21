@@ -1,0 +1,34 @@
+.container {
+    position:relative;
+    width:400px;
+    margin:auto;
+}
+
+.login {
+    position:relative;
+    background:rgb(200,200,200);
+    padding:10px;
+}
+
+#login {
+    text-shadow:0px 0px 1px rgba(0,0,0,0.5);
+}
+
+.details {
+    height:100px;
+    background:rgb(220,220,220);
+    padding:10px;
+    position: relative;
+}
+
+.details h4,h5 {
+    margin:0px;
+    font-family:sans-serif;
+}
+
+#photo {
+    height:100px;
+    position:absolute;
+    top:10px;
+    left:320px;
+}
