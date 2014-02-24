@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="scripts/xjs_basic.js"></script>
+	<script>
+	window.onload = function(){
+		var a = xJs.s("#myTitle");
+		a.css("color", "red");
+		a.ev("click", runthis);
+
+		xJs.s("h2").ev("click", runthis);
+
+		function runthis(){
+			console.log(this);
+			this.style.color="red";
+		}
+
+
+		xJs.s("h2").css("color","green");
+	}
+	</script>
+</head>
+<body>
+	<h1 id="myTitle">This is the title</h1>
+	<h2>Subheading</h2>
+	<h2>Another Subheading</h2>
+</body>
+</html>

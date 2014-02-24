@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	window.onload = function(){
+		var myTitle = document.getElementById("myTitle");
+		document.querySelector("#fadeNow").addEventListener("click", function(){
+			fadeNow(myTitle);
+		})
+
+		function fadeNow(el){
+			var opacity = el.style.opacity || 1.0;
+			(function loop(){
+				el.style.opacity = opacity;
+				opacity = opacity - 0.01;
+				if(opacity>=0){
+					setTimeout(loop, 10);
+				}
+			})()
+		}
+
+	}
+	</script>
+</head>
+<body>
+	<h1 id="myTitle">This is a title!</h1>
+	<button id="fadeNow">Fade Out</button>
+</body>
+</html>

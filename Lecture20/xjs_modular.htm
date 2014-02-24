@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="scripts/xjs_modular.js"></script>
+	<script src="scripts/xjs_fader.js"></script>
+	<script>
+	window.onload = function(){
+		
+
+		xJs.s("h2").ev("click", runthis);
+
+		function runthis(){
+			console.log(this);
+			this.style.color="red";
+		}
+
+		xJs.s("#fadeout").ev("click", fadeO);
+
+		function fadeO(){
+			xJs.s("#myTitle").fadeOut();
+		}
+
+		xJs.s("#fadein").ev("click", fadeI);
+
+		function fadeI(){
+			xJs.s("#myTitle").fadeIn();
+		}
+
+
+
+		xJs.s("h2").css("color","green");
+	}
+	</script>
+</head>
+<body>
+	<h1 id="myTitle">This is the title</h1>
+	<h2>Subheading</h2>
+	<h2>Another Subheading</h2>
+	<button id="fadeout">Fade Out</button>
+	<button id="fadein">Fade In</button>
+</body>
+</html>
