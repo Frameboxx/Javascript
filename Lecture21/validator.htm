@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.container {
+		position:relative;
+		width:640px;
+		margin:auto;
+	}
+
+	#email {
+		padding: 10px;
+		font-size: 15px;
+		font-weight: bold;
+		width: 400px;
+		border-radius: 3px;
+		border: 0px;
+		border-bottom: 2px dashed;
+	}
+
+	#error {
+		margin:4px;
+		font-family: sans-serif;
+		color:rgb(255,0,0);
+		visibility: hidden;
+	}
+	</style>
+	<script src="scripts/email_validator.js"></script>
+</head>
+<body>
+	<div class="container">
+		<input type="text" id="email">
+		<h6 id="error">E-Mail ID is invalid !</h6>
+	</div>
+</body>
+</html>
