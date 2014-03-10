@@ -1,0 +1,48 @@
+.container {
+    width:720px;
+    position:relative;
+    margin:auto;
+}
+
+table {
+    position:relative;
+    width:720px;
+    font-family:sans-serif;
+    font-size:12px;
+    text-shadow:0px 0px 1px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+thead {
+    background:rgba(0,0,0,0.1);
+}
+
+#dataTable tr:nth-child(odd) {
+    background:rgb(214,246,251);
+}
+
+#names {
+    position:relative;
+    padding:10px;
+    width:700px;
+    font-size:20px;
+}
+
+.pagination {
+    width:720px;
+    height:30px;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+.pagination li {
+    background:rgba(255,0,0,0.5);
+    font-family:sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    float:left;
+    padding:5px;
+    margin:2px;
+    cursor:pointer;
+}
