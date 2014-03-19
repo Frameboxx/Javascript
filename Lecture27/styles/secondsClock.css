@@ -1,0 +1,12 @@
+#myCanvas {
+	position:absolute;
+	width:400px;
+	height:400px;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	margin:auto;
+	border:2px dashed;
+	border-radius:220px;
+}
