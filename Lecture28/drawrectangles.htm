@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	#mycanvas {
+		border:1px solid;
+	}
+
+	.container {
+		position:relative;
+		width:500px;
+		height:450px;
+		margin:auto;
+	}
+	</style>
+	<script src="scripts/drawingrectangles.js"></script>
+</head>
+<body>
+<div class="container">
+	<canvas id="mycanvas" width="500" height="400"></canvas>
+	<br>
+	<h4>Red</h4><input type="range" id="red" min="0" max="255" >
+	<h4>Green</h4><input type="range" id="green" min="0" max="255" >
+	<h4>Blue</h4><input type="range" id="blue" min="0" max="255" >
+	<hr>
+	<button id="clear">Clear Canvas</button><button id="download">Download</button>
+</div>
+</body>
+</html>
