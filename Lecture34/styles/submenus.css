@@ -1,0 +1,28 @@
+.menu {
+  list-style:none;
+  font-family:sans-serif;
+}
+
+.menu li {
+  position:relative;
+  border:1px solid;
+  width:200px;
+  margin:2px;
+  cursor:pointer;
+}
+
+.submenu {
+  position:absolute;
+  left:200px;
+  padding:0px;
+  margin:0px;
+  list-style:none;
+  top:0px;
+  height:0px;
+  background:red;
+  overflow:hidden;
+}
+
+.submenu li:hover {
+  background:white;
+}

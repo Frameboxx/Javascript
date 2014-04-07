@@ -1,0 +1,64 @@
+* {
+	margin:0px;
+	padding:0px;
+	font-family:sans-serif;
+}
+
+body,html {
+	position: relative;
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+
+.container {
+	position:relative;
+	width:720px;
+	height:100%;
+	margin:auto;
+	
+}
+
+.loginbox {
+	position:absolute;
+	width:300px;
+	height:200px;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	padding:10px;
+	margin:auto;
+	background:rgb(220,220,220);
+	border:1px solid rgb(190,190,190);
+	box-shadow:0px 1px 4px rgba(0,0,0,0.2)
+}
+
+.loginbox h1 {
+	font-size:22px;
+	font-weight:normal;
+	color: rgb(255, 255, 255);
+	background: rgb(117, 189, 255);
+	padding: 4px;
+}
+
+.frm-input {
+	padding:10px;
+	margin:5px;
+	margin-top:10px;
+	width:89%;
+	border:0px;
+}
+
+.frm-button {
+	padding:10px;
+	margin:5px;
+	width:100px;
+}
+
+#error {
+	color:red;
+	margin-left:5px;
+	display:none;
+}
