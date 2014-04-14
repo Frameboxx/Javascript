@@ -1,0 +1,33 @@
+.menu {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+.menu li {
+    position:relative;
+    float:left;
+    padding:10px;
+    border:1px solid;
+    margin:0px;
+    height:20px;
+    width:100px;
+    font-family:sans-serif;
+    text-align:center;
+ 	cursor:pointer;
+}
+
+.menu li:hover {
+    background:red;
+}
+
+.submenu {
+    position:relative;
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    top:10px;
+    left: -11px;
+    display:none;
+    background:rgba(0,0,0,0.1);
+}

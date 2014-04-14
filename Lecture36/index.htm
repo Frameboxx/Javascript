@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery UI Demo</title>
+	<link rel="stylesheet" href="styles/x1theme/jquery-ui-1.10.4.custom.min.css">
+	<script src="scripts/jquery-1.11.0.min.js"></script>
+	<script src="scripts/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="scripts/main.js"></script>
+	<style>
+	* {
+		font-family:sans-serif;
+		font-size:13px;
+	}
+
+	.myMenu {
+		width:150px;
+	}
+
+	#volume {
+		width:400px;
+	}
+
+	.tabpanel {
+		position:relative;
+		width:720px;
+		margin:auto;
+	}
+
+
+	</style>
+</head>
+<body>
+	<h2>Datepicker</h2>
+	<label>Registration Date: <input type="text" name="reg_date"></label>
+	<hr>
+	<ul class="myMenu">
+		<li><a href="#"><span class="ui-icon ui-icon-home"></span>Home</a></li>
+		<li><a href="#">About Us</a></li>
+		<li><a href="#">Services</a></li>
+		<li><a href="#">Products</a>
+			<ul>
+				<li><a href="#">Computers</a></li>
+				<li><a href="#">Laptops</a></li>
+				<li class="ui-state-disabled"><a href="#">Tablets</a>
+					<ul>
+						<li><a href="#">Apple iPad</a></li>
+						<li><a href="#">Samsung Galaxy Tab</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li><a href="#">Contact Us</a></li>
+	</ul>
+	<hr>
+	<h4>Buttons</h4>
+	<button id="send">Send Message</button>
+	<hr>
+	<h4>Radio Buttons</h4>
+	<div id="food_options">
+		<input type="radio" id="food_options1" name="food_options" value="Red"><label for="food_options1">Red</label>
+		<input type="radio" id="food_options2" name="food_options" value="Green"><label for="food_options2">Green</label>
+		<input type="radio" id="food_options3" name="food_options" value="Blue"><label for="food_options3">Blue</label>
+	</div>
+	<hr>
+	<!-- Modal Panel -->
+	<div id="notify-all" title="Notify All Users ?">
+		<p>This will notify all users in the database. Do you wish to continue ?</p>
+	</div>
+
+	<button id="showModal">Show Confirmation</button>
+	<hr>
+	<h3>Sliders</h3>
+	<h4 id="vol_out"></h4>
+	<div id="volume"></div>
+	<hr>
+	<label>Set Value: <input type="text" id="spinvalue"></label>
+	<h4 id="spinout"></h4>
+	<hr>
+	<!-- Tab Panel -->
+	<div class="tabpanel">
+		<ul>
+			<li><a href="#aboutus">About Us</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#products">Products</a></li>
+		</ul>
+		<div id="aboutus">
+			<h4>About Us</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ea ratione officia ducimus voluptatibus. Harum, mollitia recusandae modi. Ex expedita deserunt quos minima doloribus itaque enim aut dolorum tenetur natus?</p>
+		</div>
+
+		<div id="services">
+			<h4>Services</h4>
+			<p>This is the services panel</p>
+		</div>
+
+		<div id="products">
+			<h4>Products</h4>
+			<p>All products go here</p>
+		</div>
+	</div>
+</body>
+</html>
