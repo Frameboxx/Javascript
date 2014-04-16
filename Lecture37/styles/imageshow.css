@@ -1,0 +1,21 @@
+.container {
+	position:relative;
+	width:960px;
+	margin:auto;
+}
+
+#carousel {
+	position:relative;
+	width:960px;
+	overflow:hidden;
+}
+
+#carousel .item {
+	margin:3px;
+}
+
+#carousel .item img {
+	display:block;
+	width:100%;
+	height:auto;
+}
